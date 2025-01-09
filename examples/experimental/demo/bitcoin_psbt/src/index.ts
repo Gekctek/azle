@@ -1,5 +1,7 @@
 import { jsonParse, jsonStringify } from 'azle/experimental';
 import { BitcoinNetwork } from 'azle/experimental/canisters/management';
+// TODO attempting to get workspaces to allow importing these packages automatically
+// TODO without declaring them in the package.json file
 import { determineKeyName, determineNetwork } from 'basic_bitcoin/src';
 import * as bitcoinApi from 'basic_bitcoin/src/bitcoin_api';
 import express, { Request } from 'express';

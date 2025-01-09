@@ -1,0 +1,7 @@
+{
+    "name": "examples_workspace",
+    "workspaces": [
+        "experimental/*",
+        "stable/*"
+    ]
+}
